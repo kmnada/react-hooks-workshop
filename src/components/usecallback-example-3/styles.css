@@ -1,0 +1,7 @@
+.copy-text {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    color: green;
+    font-size: 30px;
+}
