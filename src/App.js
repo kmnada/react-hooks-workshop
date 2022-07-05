@@ -11,6 +11,7 @@ import UseMemoExample1 from './components/usememo-example-1';
 import UseMemoExample2 from './components/usememo-example-2';
 import UseMemoExample3 from './components/usememo-example-3';
 import UseRefExample1 from './components/useref-example-1';
+import UseRefExample2 from './components/useref-example-2';
 import UseRefExample3 from './components/useref-example-3';
 import CustomHook1 from './components/custom-hook-1';
 import CustomHook2 from './components/custom-hook-2';
@@ -25,23 +26,24 @@ function App() {
           <ul style={{display:'flex', width: '100%'}}>
             <div className='wrapper'>
               <div className='hook-wrapper'>
-              <li><Link to="/usecallback-example-1">UseCallbackExample1</Link></li>
-              <li><Link to="/usecallback-example-2">UseCallbackExample2</Link></li>
-              <li><Link to="/usecallback-example-3">UseCallbackExample3</Link></li>
+              <li><Link to="/usecallback-example-1">UseCallback1</Link></li>
+              <li><Link to="/usecallback-example-2">UseCallback2</Link></li>
+              <li><Link to="/usecallback-example-3">UseCallback3</Link></li>
               </div>
               <div className='hook-wrapper'>
-              <li><Link to="/usememo-example-1">UseMemoExample1</Link></li>
-              <li><Link to="/usememo-example-2">UseMemoExample2</Link></li>
-              <li><Link to="/usememo-example-3">UseMemoExample3</Link></li>
+              <li><Link to="/usememo-example-1">UseMemo1</Link></li>
+              <li><Link to="/usememo-example-2">UseMemo2</Link></li>
+              <li><Link to="/usememo-example-3">UseMemo3</Link></li>
                 </div>
                 <div className='hook-wrapper'>
-                <li><Link to="/useref-example-1">UseRefExample1</Link></li>
-                <li><Link to="/useref-example-3">UseRefExample3</Link></li>
+                <li><Link to="/useref-example-1">UseRef1</Link></li>
+                <li><Link to="/useref-example-2">UseRef2</Link></li>
+                <li><Link to="/useref-example-3">UseRef3</Link></li>
                 </div>
                 <div className='hook-wrapper'>
-                <li><Link to="/uselayout-example-1">UseLayoutExample1</Link></li>
-              <li><Link to="/uselayout-example-2">UseLayoutExample2</Link></li>
-              <li><Link to="/uselayout-example-3">UseLayoutExample3</Link></li>
+                <li><Link to="/uselayout-example-1">UseLayout1</Link></li>
+              <li><Link to="/uselayout-example-2">UseLayout2</Link></li>
+              <li><Link to="/uselayout-example-3">UseLayout3</Link></li>
                 </div>
                 <div className='hook-wrapper'>
                 <li><Link to="/custom-hook-1">CustomHook1</Link></li>
@@ -72,6 +74,9 @@ function App() {
           </Route>
           <Route path="/useref-example-1">
             <UseRefExample1 />
+          </Route>
+          <Route path="/useref-example-2">
+            <UseRefExample2 />
           </Route>
           <Route path="/useref-example-3">
             <UseRefExample3 />
