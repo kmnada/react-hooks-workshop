@@ -48,3 +48,8 @@
   justify-content: space-around;
   margin: 10px;
 }
+
+.hook-wrapper {
+  width: 20%;
+  text-align: start;
+}
